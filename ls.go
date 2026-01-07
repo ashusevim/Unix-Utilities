@@ -5,6 +5,10 @@ import (
 	"os"
 )
 
+func main() {
+	ls()
+}
+
 func ls() {
 	currentWorkingDirectory, err := os.Getwd()
 	if err != nil {
