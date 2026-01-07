@@ -13,6 +13,10 @@ import (
 	"os"
 )
 
+func main() {
+	cat()
+}
+
 func cat() {
 
 	if len(os.Args) < 2 {
